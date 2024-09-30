@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #000;
+}
+#wrap {
+  margin: 100px auto;
+}
+
+.input-box {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  border: none;
+}
+.input-box:focus {
+  background-color: #fff;
+}
+.input-box::placeholder {
+  color: #5f6368;
+}
+.main-container {
+  display: block;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+#todo-form {
+  display: flex;
+  position: relative;
+}
+#input-submit {
+  font-size: 17px;
+  justify-content: center;
+  height: 30px;
+  width: 50px;
+  top: 5px;
+  border-radius: 10px;
+  position: absolute;
+  right: 5px;
+  border: none;
+  background-color: #3b8842;
+  color: #ecfdf3;
+  cursor: pointer;
+}
+#input-submit:hover {
+  background-color: #ecfdf3;
+  color: #3b8842;
+}
+.list-container {
+  display: block;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}
+#todoUl {
+  list-style: none;
+  padding: 0;
+}
+#todoUl > li {
+  display: flex;
+  justify-content: space-between; /* 양쪽 끝에 span 배치 */
+  align-items: center;
+  padding: 10px;
+  background-color: #76b87c;
+  margin-bottom: 5px;
+  color: #fff;
+  border-radius: 10px;
+}
+#todoUl > li > .deleteIcon {
+  cursor: pointer;
+}
