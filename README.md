@@ -1,5 +1,6 @@
 # Dodo-List
 혼자 공부하면서 만든 투두리스트
+링크 -> https://yerinji.github.io/Dodo-List/
 ![image](https://github.com/user-attachments/assets/6f9bacb6-b8a1-4836-810a-3c4b0fe7c8af)
 
 - 수정과 삭제기능
